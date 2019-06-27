@@ -1,1 +1,7 @@
-{{track}}
+//list (look up syntax)
+//for each model
+<br>
+{{#each model as |song-data|}}
+  {{song-item track-name=song-data.info}}
+{{/each}}
+

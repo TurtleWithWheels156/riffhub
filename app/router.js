@@ -8,6 +8,8 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('songs');
+  this.route('edit-track', { path: '/:song_name'});
+  this.route('settings');
 });
 
 export default Router;
